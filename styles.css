@@ -1,0 +1,176 @@
+body {
+    color: #0f141e;
+    background: #ddd;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.link {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all .2s;
+}
+
+.link:hover {
+    text-decoration: underline;
+
+}
+
+.link:active {
+   color:blue;
+}
+
+.card {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px gray;
+}
+
+.info {
+    padding-bottom: 5px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 3px solid rgba(37, 36, 36, 0.6);
+}
+
+img {
+    margin-right: 10px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 3px 0px 14px rgba(55, 54, 54, 0.6);
+}
+
+.info_text {
+    background-color: rgb(91, 234, 96); 
+}
+
+.hobby {
+    background-color: rgb(184, 248, 227);
+}
+
+.list_hobby {
+    padding: 0 20px;
+    color: #41414e;
+}
+
+.list_hobby li {
+    margin-bottom: 10px;
+}
+
+.jobs {
+    color: white;
+    background-color: rgb(108, 58, 158);
+}
+
+.jobs_table {
+    width: 100%;
+}
+
+.jobs_table td{
+    padding-bottom: 10px;
+}
+
+.jobs_table td:nth-child(2), .jobs_table td:nth-child(3) {
+    color: #b0b0c3;
+}
+
+
+
+.info_text p {
+    color:rgb(136, 132, 132);
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 16px;
+    font-style: italic;
+ }
+
+ .btn {
+    padding: 5px 50px;
+    color: white;
+    background-color: #0f141e;
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    opacity: .8;
+    transition: all .3s;
+ }
+
+ .btn:hover {
+    opacity: 1;
+ }
+
+  .btn:active {
+    background-color: coral;
+  }
+
+  .btn:visited {
+    background-color: dimgray;
+  }
+
+  .data label{
+    display: block;
+  }
+
+  .data input,
+  .data textarea{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 15px 0 10px;
+    box-sizing: border-box;
+    color: black;
+    outline: none;
+    font-family: inherit;
+  }
+
+  .form-row{
+    margin-bottom: 10px;
+    display: flex;
+  }
+
+  .form-row .data{
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px); */
+  }
+
+  .form-row .data:last-child {
+    margin-right: 0;
+  }
+
+  .contact h2{
+    text-align: center;
+  }
+
+  
+
+  @media  (max-width:650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .form-row {
+        display: block;
+
+    }
+    .form-row .data {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+     
+  }
+
+   
+
